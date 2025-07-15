@@ -1,0 +1,14 @@
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .d-print-none {
+    display: none !important;
+  }
+  @page {
+    margin: 10mm;
+  }
+}
+
