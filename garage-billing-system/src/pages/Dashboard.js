@@ -34,7 +34,7 @@ const Dashboard = () => {
             <Card.Body>
               <Card.Title>Past Invoices</Card.Title>
               <Card.Text>Search and view previous bills.</Card.Text>
-              <Button variant="success" onClick={() => navigate('/history')}>Go</Button>
+              <Button variant="success" onClick={() => navigate('/past-invoices')}>Go</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -60,6 +60,7 @@ const Dashboard = () => {
             </Card.Body>
           </Card>
       </Col>
+
       </Row>
     </Container>
   );
