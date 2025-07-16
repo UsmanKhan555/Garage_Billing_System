@@ -49,7 +49,7 @@ const PrintableInvoice = () => {
   return (
     <Container className="mt-4">
       <div className="printable-invoice p-4 border rounded" style={{ minHeight: '1000px', position: 'relative' }}>
-        <h2 className="text-center mb-3"><strong>Najmat Alsahra Garage</strong></h2>
+        <h2 className="text-center mb-3"><strong> Billing System</strong></h2>
         <p className="text-center mb-1">TRN: 123456789</p>
         <p className="text-center mb-1">Phone 1: +971 50 123 4567 | Phone 2: +971 52 765 4321</p>
         <hr />
