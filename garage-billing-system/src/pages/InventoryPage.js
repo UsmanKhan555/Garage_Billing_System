@@ -26,7 +26,7 @@ const InventoryPage = () => {
     const data = await getDocs(inventoryRef);
     setItems(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
   };
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchItems();
   }, []);

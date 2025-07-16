@@ -16,7 +16,7 @@ const ServicePage = () => {
     const data = await getDocs(servicesRef);
     setServices(data.docs.map(doc => ({ ...doc.data(), id: doc.id })));
   };
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchServices();
   }, []);
