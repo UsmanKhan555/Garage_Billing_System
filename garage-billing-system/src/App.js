@@ -9,13 +9,14 @@ import CustomerPage from './pages/CustomerPage';
 import PrintableInvoice from './pages/PrintableInvoice';
 import PastInvoicesPage from './pages/PastInvoicesPage';
 import ReportsPage from './pages/ReportsPage';
-
+import AppNavbar from './components/Navbar';
 
 
 function App() {
   return (
     <Router>
       <div className="container mt-4">
+      <AppNavbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/invoice" element={<InvoiceBuilder />} />
